@@ -13,6 +13,7 @@
 <h1>Montando o ambiente para utilizar o sistema:</h1>
 
 <ul>
+  <li>Instalar o <a href="https://nodejs.org/en/download/">Node.js</a></li>
   <li>Clonar repositório, <code>$ git clone https://github.com/MatheusNougueira/MEANstack.git</code></li>
   <li>Executar o comando <code>$ npm install</code>, para instalar as dependências no package.json</li>
   <li>Instalar o <a href="https://www.mongodb.com/download-center">MongoDB</a></li>
