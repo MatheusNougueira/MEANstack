@@ -1,14 +1,19 @@
-<h1 class="text-center">Login</h1>
-<p class="alert-danger">{{mensagem}}</p>
-<form ng-submit="autenticar()">
-    <div class="form-grupo">
-        <label>Login</label>
-        <input type="text" class="form-control" ng-model="usuario.login">
+<div class="container">
+    <h1 class="text-center">Login</h1>
+    <p class="alert-danger">{{mensagem}}</p>
+    
+    <div>
+    <form ng-submit="autenticar()">
+        <div class="form-grupo">
+            <label>Login</label>
+            <input type="text" class="form-control" ng-model="usuario.login">
+        </div>
+        <div class="form-grupo">
+            <label>Senha</label>
+            <input type="password" class="form-control" ng-model="usuario.senha">
+        </div>
+        <br>
+        <input type="submit" value="Entrar" class="btn btn-primary">
+    </form>
     </div>
-    <div class="form-grupo">
-        <label>Senha</label>
-        <input type="password" class="form-control" ng-model="usuario.senha">
-    </div>
-    <br>
-    <input type="submit" value="Entrar" class="btn btn-primary">
-</form>
+</div>
